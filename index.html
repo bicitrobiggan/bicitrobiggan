@@ -26,6 +26,11 @@
     <p>Window loaded</p>
   </div>
   <!-- Project -->
-  <script src="main.js"></script>
+  <script>
+window.onload = function(){
+document.getElementById("loader").style.display = "none";
+document.getElementById("body").style.display = "block";
+}
+</script>
 </body>
 </html>
